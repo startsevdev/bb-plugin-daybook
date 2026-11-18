@@ -1,0 +1,16 @@
+.daybook {display:flex;flex-direction:column;height:100%;min-height:0;overflow:hidden;font-size:13px}
+.daybook .filters {display:flex;gap:5px;padding:6px}
+.daybook select {color:inherit;background:var(--sidebar);min-width:0;border:1px solid var(--sidebar-border);border-radius:5px;padding:3px}
+.daybook select:first-child {flex:1}
+.daybook .days {overflow:auto;flex:1;padding:0 6px}
+.daybook section {margin:8px 0}
+.daybook .heading,.daybook .more,.daybook summary {cursor:pointer;font-size:12px}
+.daybook .heading {width:100%;text-align:left;font-weight:600;padding:4px}
+.daybook a {display:flex;align-items:center;gap:5px;padding:4px 6px;border-radius:5px;text-decoration:none;color:inherit}
+.daybook a:hover,.daybook a[aria-current] {background:var(--sidebar-accent)}
+.daybook a span,.daybook a small {overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.daybook a span {flex:1}.daybook a small {max-width:32%}
+.daybook small,.daybook .more {color:var(--muted-foreground);font-size:11px}
+.daybook .quota {padding:8px 12px;border-top:1px solid var(--sidebar-border);max-height:38%;overflow:auto}
+.daybook .quota strong,.daybook .quota small {display:block}.daybook .quota strong {margin-top:6px}
+.daybook .window {margin-top:3px}.daybook .window b {float:right}.daybook .more {padding:3px 16px}
